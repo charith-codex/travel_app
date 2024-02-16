@@ -44,9 +44,9 @@ const Features = () => {
 }
 
 type FeatureItem = {
-  title: String;
-  icon: String;
-  description: String;
+  title: string;
+  icon: string;
+  description: string;
 }
 
 const FeatureItem = ({ title, icon, description }: FeatureItem) => {
